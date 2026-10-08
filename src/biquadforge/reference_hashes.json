@@ -1,0 +1,22 @@
+{
+  "archive_sha256": "307d32298faa7c58db912851027fce35f886fec7eb1a27c4b309ce1a97f47519",
+  "files": {
+    "Include/arm_math_memory.h": "849ad814348d068ea92e549130eb10234b8b37589ea3c2485ede0a000a2d11c7",
+    "Include/arm_math_types.h": "8b51f20da8c8e75b0867dba794b41ed234fb739478b77f2a55ff123449fd0ec8",
+    "Include/dsp/basic_math_functions.h": "ca1115db2c4987be3580088813642b8c088026a302abc855b42574ed5f840cd2",
+    "Include/dsp/fast_math_functions.h": "59e4448676af29ce56a1eb5f915b6d7ec4ead7df64aa08c1644837c682030249",
+    "Include/dsp/filtering_functions.h": "e2b09ed399f2f2432200b639498634a033962cc0d6b8b72b0d6ed3b2ebab091c",
+    "Include/dsp/none.h": "6e0541619f99fa5bec799d51a0e67845e38511a263031c17a2eb1d215b687288",
+    "Include/dsp/support_functions.h": "aac9a26414047add6d7e9f14f5518acc052b4292be8a208cbf6ff4c55264c24a",
+    "Include/dsp/utils.h": "a16ac4b370a340f0d0a962246b74b78f027ebd4257f9d911c1ba6e180d3f1a11",
+    "LICENSE": "e03ba41d7fab20700769fe4118bab50d800cb74f990353a05d2f5fff1c228363",
+    "PrivateInclude/arm_compiler_specific.h": "7d77d4836a6ae1ec2a23e7c86677ae48d9781af03dfaa960934b1fe01a2052f0",
+    "Source/FilteringFunctions/arm_biquad_cascade_df1_init_q15.c": "8719c3c69c9db4d3d3f4c3c0de2c23bfb6a7ce52b09dabdc7d12ed3c813b2bb9",
+    "Source/FilteringFunctions/arm_biquad_cascade_df1_q15.c": "6ec6656458f2dac180366038672cce6a065f69b260cdab3746868f1a8bcc5923"
+  },
+  "python_distribution": "cmsisdsp",
+  "python_distribution_version": "1.10.3",
+  "source_url": "https://pypi.org/project/cmsisdsp/1.10.3/",
+  "upstream_license": "Apache-2.0",
+  "variant": "standard scalar, postShift0..3"
+}
