@@ -4,7 +4,7 @@ A small, headless SciPy-SOS → CMSIS standard scalar Q15 qualification workflow
 It emits a reproducible C integration/replay pack **or a precise rejection**.
 Normal use needs Python, NumPy and SciPy. A compiler and CMSIS sources are optional.
 
-This is a local pre-release source checkpoint; it has not been published to PyPI.
+This is a pre-release source checkpoint; it has not been published to PyPI.
 
 ## Quick start
 
@@ -148,8 +148,12 @@ python -m build
 ```
 
 Optional C tests skip explicitly when the compiler is unavailable; ordinary unit
-and build use never requires it. CI configuration is included but no remote CI
-execution is claimed in this source checkpoint.
+and build use never requires it. The local qualification figures above are
+historical evidence from 2026-10-08. The [initial public source snapshot](https://github.com/loaff123/BiquadForge/commit/535273457b2b6a483e4145bade069e69b1c7cee2)
+passed all 145 tests, package builds and standard scalar C replay on Python
+3.10/3.12/3.13 in [its exact-commit CI run](https://github.com/loaff123/BiquadForge/actions/runs/37752250973).
+See [Actions](https://github.com/loaff123/BiquadForge/actions) for later commits;
+these host checks do not establish target-hardware suitability.
 
 Original code: MIT. Optional upstream fixture: Apache-2.0 with notices retained.
 See [third-party notices](THIRD_PARTY_NOTICES.md).

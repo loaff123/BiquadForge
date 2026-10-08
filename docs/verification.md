@@ -68,9 +68,12 @@ positive/rejection examples, hidden internal residuals, search accounting, deter
 packs, no-clobber destinations, interruption markers, forged hashes/code, source
 header changes, optional-compiler statuses and package contents.
 
-CI configuration is supplied for Python3.10/3.12/3.13, but remote CI has not run in
-this local checkpoint. Local fresh wheel/sdist install evidence is recorded in the
-separate development release report; no public or hardware validation is implied.
+The local validation described above is a historical 2026-10-08 checkpoint.
+The [initial public source snapshot](https://github.com/loaff123/BiquadForge/commit/535273457b2b6a483e4145bade069e69b1c7cee2)
+passed all 145 tests, package builds and standard scalar C replay on Python
+3.10/3.12/3.13 in [its exact-commit CI run](https://github.com/loaff123/BiquadForge/actions/runs/37752250973).
+Local fresh wheel/sdist installations are separate evidence. Hosted Linux CI does
+not establish target-hardware, ABI-portability or real-time behavior.
 
 ## CI preparation
 
@@ -79,4 +82,6 @@ and checkout credential persistence disabled. Official actions are fixed to
 [checkout v4.2.2](https://github.com/actions/checkout/commit/11bd71901bbe5b1630ceea73d27597364c9af683)
 and [setup-python v5.6.0](https://github.com/actions/setup-python/commit/a26af69be951a213d495a4c3e4e4022e16d87065).
 These are deliberate immutable official release pins, not a claim to be the latest
-action versions. Local tests check workflow guardrails; remote CI remains unrun.
+action versions. Local tests check workflow guardrails. The initial public run
+linked above verified the pinned workflow; later commits require their own
+exact-commit result.
